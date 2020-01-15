@@ -1,0 +1,14 @@
+.clock {
+  border-style: solid;
+  background: black;
+  margin-right: 30%;
+  margin-left: 20%;
+  margin-top: 15%; }
+
+time {
+  text-align: center;
+  font-size: 50px;
+  padding-left: 39%;
+  color: burlywood; }
+
+/*# sourceMappingURL=styles.css.map */

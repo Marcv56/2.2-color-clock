@@ -18,7 +18,7 @@ let $elementId = document.querySelector('#myid')
 // // },1000);
 
 let $button = document.querySelector('button');
-$button.addEventListener('click', () => {
+$button. addEventListner('click', () => {
   console.log(`you clicked a button`);
 })
 
