@@ -1,6 +1,6 @@
 .clock {
   border-style: solid;
-  background: black;
+  background: grey;
   margin-right: 30%;
   margin-left: 20%;
   margin-top: 15%; }
@@ -9,6 +9,6 @@ time {
   text-align: center;
   font-size: 50px;
   padding-left: 39%;
-  color: burlywood; }
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
