@@ -1,14 +1,23 @@
-.clock {
+#clock {
   border-style: white;
-  background: ;
-  margin-right: 30%;
-  margin-left: 20%;
-  margin-top: 15%; }
+  text-align: center;
+  margin-top: 15%;
+  font-size: 300%;
+  color: white;
+}
 
 time {
-  text-align: center;
   font-size: 50px;
-  padding-left: 39%;
-  color: white; }
+  color: white;
+}
+
+#line {
+  width: 90%;
+  border-bottom: solid;
+  color: white;
+  margin: auto;
+}
+
+
 
 /*# sourceMappingURL=styles.css.map */
