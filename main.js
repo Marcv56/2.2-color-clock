@@ -11,18 +11,21 @@ function hexClock() {
     hours = '0' + hours;
   }
   if (minutes.length < 2) {
-    minutes = '0' + hours;
+    minutes = '0' + minutes;
   }
   if (seconds.length < 2) {
-    seconds = '0' + hours;
+    seconds = '0' + seconds;
   }
 
   var clockStr = hours + ':' + minutes + ':' + seconds;
   var hexColorStr = '#' + hours + minutes + seconds; // you still need to generate a hexCode
+  var hexString = '#' + hours + minutes + seconds;
+
+
 
 
   $time.textContent = clockStr;
-  // hexColor.textContent = hexColorStr
+  // $clock.textContent = hours + ':' + minutes + ':' + seconds;
   document.body.style.backgroundColor = hexColorStr;
 
 }
